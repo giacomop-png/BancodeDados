@@ -4,6 +4,7 @@
     private $usuario = "root";
     private $senha = "";
     private $banco = "todo_list";
+    private $conn = '';
  
 
     public function conectar(){
